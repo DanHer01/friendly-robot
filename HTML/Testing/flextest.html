@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .divflex {
+            display: flex;
+        }
+        div {
+            background-color: antiquewhite;
+            min-width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="divflex">
+        <div>
+            
+        </div>
+    </div>
+
+</body>
+<script>
+    
+    const person = {
+        name: {
+            first: 'Bob',
+            last: 'Hill'
+        },
+        age: 32,
+        gender: 'male',
+        interests: ['music', 'skiing'],
+        bio: function() {
+            alert(person.name.first + ' ' + person.name.last + ' is ' + person.age + ' years old. He likes ' + person.interests[0] + ' and ' + person.interests[1] + '.');
+        },
+        greeting: function() {
+            alert('Hi! I\'m ' + person.name.first + '.');
+        }
+    };
+
+</script>
+</html>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+:root {
+    font-size: 10px;
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+#main {
+    background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+}
+#title {
+    color: #FFFFFF;
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+    font-size: 10em;
+}
+p {
+    font-family: sans-serif;
+    font-size: 3em;
+    padding: 5%;
+}
+#img-div {
+    
+}
+#img {
+    height: auto;
+    width:100%;
+}
+#img-caption {
+
+}
+#tribute-info {
+
+}
+#tribute-link {
+
+}
